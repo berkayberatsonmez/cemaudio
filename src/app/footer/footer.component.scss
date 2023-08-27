@@ -1,0 +1,35 @@
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 99px;
+  background-color: #f0f0f0;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-item div {
+  display: flex;
+  align-items: center;
+}
+
+.footer-item mat-icon {
+  font-size: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-item h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.footer-item p {
+  font-size: 20px;
+  display: flex;
+  align-items: flex-start;
+}

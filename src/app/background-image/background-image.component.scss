@@ -1,0 +1,36 @@
+.background-image {
+    position: relative;
+    background-image: url('/assets/images/city.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 950px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.content h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.content button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    background-color: yellow;
+}

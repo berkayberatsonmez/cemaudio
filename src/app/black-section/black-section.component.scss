@@ -1,0 +1,42 @@
+.black-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  height: 50vh;
+}
+
+.black-hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  margin-top: 100px;
+}
+
+.black-hero-section img {
+  max-width: 100%;
+  max-height: 400px;
+  width: auto;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+
+.black-hero-text {
+  text-align: left;
+  color: white;
+  margin-bottom: 100px;
+}
+
+.black-hero-text h1 {
+  font-size: 42px;
+
+}
+
+.black-hero-text p {
+  font-size: 21px;
+}
